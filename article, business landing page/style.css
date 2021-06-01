@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background-color: red;
+}
+.nav{ 
+    background-color:rgb(157, 196, 157);
+    flex:1;
+}
+.div{
+   display: flex;
+   flex-direction: column;
+   flex: 5;
+}
+.content{
+    flex: 4;
+    min-height: 60vh;
+    background-color: white;
+    
+}
+.div header,footer{
+    background-color:yellowgreen;
+    height: 20vh;
+   
+}
